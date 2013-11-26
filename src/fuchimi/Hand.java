@@ -3,6 +3,7 @@ package fuchimi;
 public abstract class Hand {
 
 	public Boolean beats(Hand hand) {
+
 		return null;
 	}
 
