@@ -1,3 +1,4 @@
+package fuchimi;
 
 public class FuchimiGame {
 
