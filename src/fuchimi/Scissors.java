@@ -7,9 +7,7 @@ public class Scissors extends Hand {
 	}
 
 	public Boolean beats(Hand hand) {
-		Boolean beats = false;
-		beats = hand.loseAgainst(this);
-		return beats;
+		return hand.loseAgainst(this);
 	}
 
 	protected Boolean loseAgainst(Paper paper) {
